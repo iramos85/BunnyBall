@@ -1065,6 +1065,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e67650bbe99041beaa51cda1ad78893, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameInstructions: Move the player by using the W,A,S and D keys
 --- !u!4 &430877120
 Transform:
   m_ObjectHideFlags: 0
@@ -1250,7 +1251,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 534669902}
-  m_LocalRotation: {x: 0.10924499, y: -0.000000017103401, z: 0.000000001879711, w: 0.9940149}
+  m_LocalRotation: {x: 0.10924499, y: 0.000000023944759, z: -0.0000000026315954, w: 0.9940149}
   m_LocalPosition: {x: 0, y: 3.4400344, z: -5.041143}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -1632,8 +1633,8 @@ Transform:
   - {fileID: 266509573}
   - {fileID: 467403141}
   - {fileID: 1352601173}
-  - {fileID: 657826699}
   - {fileID: 1774391632}
+  - {fileID: 657826699}
   - {fileID: 1087021237}
   - {fileID: 247480463}
   - {fileID: 1730858715}
@@ -2022,7 +2023,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1427051894}
-  m_LocalRotation: {x: 0.14229867, y: 0.000000008515642, z: -0.0000000012242225, w: 0.9898238}
+  m_LocalRotation: {x: 0.14229867, y: -0.000000008515643, z: 0.0000000012242227, w: 0.9898238}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -2994,7 +2995,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1801579301}
-  m_LocalRotation: {x: 0.11867232, y: -0.000000017084798, z: 0.000000002041922, w: 0.9929335}
+  m_LocalRotation: {x: 0.11867232, y: 0.000000017084789, z: -0.0000000020419206, w: 0.9929335}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -3297,6 +3298,11 @@ PrefabInstance:
       propertyPath: gameManager
       value: 
       objectReference: {fileID: 830316567}
+    - target: {fileID: 7443251220583942649, guid: f757b320558b7984c96b025d56b0fd51,
+        type: 3}
+      propertyPath: speedVariable
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 7443251220583942649, guid: f757b320558b7984c96b025d56b0fd51,
         type: 3}
       propertyPath: cameraTransform
